@@ -1,0 +1,15 @@
+{
+  "name": "dance-website",
+  "version": "1.0.0",
+  "description": "This is the dance academy website of Farah Khan, This is the top academy of our country. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sachin Atey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pug": "^3.0.2"
+  }
+}

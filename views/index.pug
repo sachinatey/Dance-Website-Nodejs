@@ -1,0 +1,26 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../public/style.css
+  body
+    nav#navbar  
+        ul 
+            li #[a(href='/') Home ]
+            li #[a(href='/') About ]
+            li #[a(href='/') Batch Info ]
+            li #[a(href='/') Contact Us]
+
+    section#introSection
+        div  Farah Dance Academy 
+        div.small  Eat Sleep Dance Repeat
+
+
+    section#sponsorsSection
+        h3  Our Sponsors 
+
+    footer#footer
+
+    script
+      include ../public/script.js
